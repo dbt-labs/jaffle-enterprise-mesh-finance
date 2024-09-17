@@ -2,7 +2,7 @@ with
 
 orders as (
 
-    select * from {{ ref('stg_orders') }}
+    select * from {{ ref('cirque_du_jaffle', 'stg_orders') }}
 
 ),
 
